@@ -1,0 +1,23 @@
+{
+    "nome_comprador": "Carlos Almeida",
+    "email_comprador": "carlos.almeida@example.com",
+    "telefone_comprador": "914567890",
+    "endereco_entrega": "Rua do Sol, 78, Coimbra",
+    "itens_comprados": [
+        {
+            "nome_item": "Lata de atum",
+            "quantidade": 5,
+            "preco_unitario": 2.50
+        },
+        {
+            "nome_item": "Pacote de arroz",
+            "quantidade": 3,
+            "preco_unitario": 3.00
+        }
+    ],
+    "valor_total": 27.50,
+    "metodo_pagamento": "MBway",
+    "status_pagamento": "Cancelado",
+    "data_compra": null,
+    "data_entrega": null
+}

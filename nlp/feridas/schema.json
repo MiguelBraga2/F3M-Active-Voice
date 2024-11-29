@@ -1,0 +1,129 @@
+{
+    "nome": {
+        "type": "string",
+        "description": "Nome completo do paciente"
+    },
+    "idade": {
+        "type": "number",
+        "description": "Idade do paciente"
+    },
+    "endereco": {
+        "type": "string",
+        "description": "Endereço do paciente"
+    },
+    "numero_identificacao": {
+        "type": "string",
+        "description": "Número de identificação do paciente"
+    },
+    "contato_emergencia": {
+        "type": "string",
+        "description": "Contato de emergência do paciente"
+    },
+    "condicoes_cronicas": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "description": "Doenças crônicas do paciente"
+    },
+    "medicamentos_atuais": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "description": "Medicamentos que o paciente está tomando"
+    },
+    "alergias": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "description": "Alergias conhecidas do paciente"
+    },
+    "historico_cirurgias": {
+        "type": "string",
+        "description": "Histórico de cirurgias do paciente"
+    },
+    "localizacao_ferida": {
+        "type": "string",
+        "description": "Localização da ferida"
+    },
+    "tamanho_ferida": {
+        "type": "object",
+        "properties": {
+            "valor": {
+                "type": "number",
+                "description": "O tamanho da ferida"
+            },
+            "unidade": {
+                "type": "string",
+                "description": "A unidade de medida do tamanho da ferida (cm, mm, etc.)"
+            }
+        }
+    },
+    "profundidade_ferida": {
+        "type": "string",
+        "description": "Profundidade da ferida (Superficial, Parcial, Completa)"
+    },
+    "exudato_ferida": {
+        "type": "object",
+        "properties": {
+            "presente": {
+                "type": "boolean",
+                "description": "Se há presença de exudato"
+            },
+            "tipo": {
+                "type": "string",
+                "description": "Tipo de exudato (Sero, Purulento, etc.)"
+            }
+        }
+    },
+    "nivel_dor": {
+        "type": "number",
+        "description": "Nível de dor em uma escala de 0 a 10"
+    },
+    "infeccao": {
+        "type": "boolean",
+        "description": "Se há presença de infecção"
+    },
+    "duracao": {
+        "type": "number",
+        "description": "Duração da ferida em dias"
+    },
+    "estagio": {
+        "type": "string",
+        "description": "Estágio da ferida (I, II, III, IV)"
+    },
+    "necrose": {
+        "type": "boolean",
+        "description": "Se há presença de necrose"
+    },
+    "consciencia_paciente": {
+        "type": "string",
+        "description": "Nível de consciência do paciente (Alerta, Confuso, etc.)"
+    },
+    "peso": {
+        "type": "number",
+        "description": "Peso do paciente em kg"
+    },
+    "altura": {
+        "type": "number",
+        "description": "Altura do paciente em metros"
+    },
+    "imc": {
+        "type": "number",
+        "description": "Índice de Massa Corporal (IMC) do paciente"
+    },
+    "mobilidade": {
+        "type": "string",
+        "description": "Mobilidade do paciente (Independente, Parcialmente Dependente, Totalmente Dependente)"
+    },
+    "ulceras_pressao": {
+        "type": "boolean",
+        "description": "Se há presença de úlceras de pressão"
+    },
+    "avaliacao_circulacao": {
+        "type": "string",
+        "description": "Avaliação da circulação (Normal, Comprometida)"
+    }
+}

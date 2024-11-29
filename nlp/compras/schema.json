@@ -1,0 +1,61 @@
+{
+    "nome_comprador": {
+        "type": "string",
+        "description": "Nome completo do comprador"
+    },
+    "email_comprador": {
+        "type": "string",
+        "description": "E-mail do comprador"
+    },
+    "telefone_comprador": {
+        "type": "string",
+        "description": "Número de telefone do comprador"
+    },
+    "endereco_entrega": {
+        "type": "string",
+        "description": "Endereço para entrega das compras"
+    },
+    "itens_comprados": {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "properties": {
+                "nome_item": {
+                    "type": "string",
+                    "description": "Nome do item comprado"
+                },
+                "quantidade": {
+                    "type": "number",
+                    "description": "Quantidade comprada do item"
+                },
+                "preco_unitario": {
+                    "type": "number",
+                    "description": "Preço unitário do item"
+                }
+            }
+        },
+        "description": "Lista de itens comprados"
+    },
+    "valor_total": {
+        "type": "number",
+        "description": "Valor total da compra"
+    },
+    "metodo_pagamento": {
+        "type": "string",
+        "description": "Método de pagamento utilizado (Cartão de crédito, Pix, Boleto, etc.)"
+    },
+    "status_pagamento": {
+        "type": "string",
+        "description": "Status do pagamento (Pago, Pendente, Cancelado)"
+    },
+    "data_compra": {
+        "type": "string",
+        "format": "date",
+        "description": "Data em que a compra foi realizada"
+    },
+    "data_entrega": {
+        "type": "string",
+        "format": "date",
+        "description": "Data prevista para a entrega"
+    }
+}

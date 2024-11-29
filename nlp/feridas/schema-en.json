@@ -1,0 +1,129 @@
+{
+    "name": {
+        "type": "string",
+        "description": "Full name of the patient"
+    },
+    "age": {
+        "type": "number",
+        "description": "Age of the patient"
+    },
+    "address": {
+        "type": "string",
+        "description": "Address of the patient"
+    },
+    "identification_number": {
+        "type": "string",
+        "description": "Patient's identification number"
+    },
+    "emergency_contact": {
+        "type": "string",
+        "description": "Emergency contact of the patient"
+    },
+    "chronic_conditions": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "description": "Chronic diseases of the patient (e.g., diabetes, hypertension)"
+    },
+    "current_medications": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "description": "Medications the patient is taking"
+    },
+    "allergies": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "description": "Known allergies of the patient"
+    },
+    "surgery_history": {
+        "type": "string",
+        "description": "Patient's surgery history"
+    },
+    "wound_location": {
+        "type": "string",
+        "description": "Location of the wound"
+    },
+    "wound_size": {
+        "type": "object",
+        "properties": {
+            "value": {
+                "type": "number",
+                "description": "The size of the wound"
+            },
+            "unit": {
+                "type": "string",
+                "description": "The unit of measurement for the wound size (cm, mm, etc.)"
+            }
+        }
+    },
+    "wound_depth": {
+        "type": "string",
+        "description": "Wound depth (Superficial, Partial, Full)"
+    },
+    "wound_exudate": {
+        "type": "object",
+        "properties": {
+            "present": {
+                "type": "boolean",
+                "description": "Whether exudate is present"
+            },
+            "type": {
+                "type": "string",
+                "description": "Type of exudate (Serous, Purulent, etc.)"
+            }
+        }
+    },
+    "pain_level": {
+        "type": "number",
+        "description": "Pain level on a scale from 0 to 10"
+    },
+    "infection": {
+        "type": "boolean",
+        "description": "Whether there is an infection"
+    },
+    "duration": {
+        "type": "number",
+        "description": "Duration of the wound in days"
+    },
+    "stage": {
+        "type": "string",
+        "description": "Wound stage (I, II, III, IV)"
+    },
+    "necrosis": {
+        "type": "boolean",
+        "description": "Whether necrosis is present"
+    },
+    "patient_consciousness": {
+        "type": "string",
+        "description": "Level of consciousness of the patient (Alert, Confused, etc.)"
+    },
+    "weight": {
+        "type": "number",
+        "description": "Patient's weight in kg"
+    },
+    "height": {
+        "type": "number",
+        "description": "Patient's height in meters"
+    },
+    "bmi": {
+        "type": "number",
+        "description": "Body Mass Index (BMI) of the patient"
+    },
+    "mobility": {
+        "type": "string",
+        "description": "Patient's mobility (Independent, Partially Dependent, Fully Dependent)"
+    },
+    "pressure_ulcers": {
+        "type": "boolean",
+        "description": "Whether there are pressure ulcers"
+    },
+    "circulation_assessment": {
+        "type": "string",
+        "description": "Circulation assessment (Normal, Compromised)"
+    }
+}

@@ -1,0 +1,21 @@
+
+{
+    "nome_crianca": "Lorenzo",
+    "idade_crianca": 4,
+    "data_nascimento": "2019-06-15",
+    "nome_responsavel": "Clara",
+    "contato_responsavel": "(11) 91234-5678",
+    "endereco_responsavel": "Avenida das Flores, 250",
+    "alergias": [
+        "Amendoim"
+    ],
+    "medicamentos_atuais": null,
+    "necessidades_especiais": false,
+    "tipo_necessidades_especiais": null,
+    "horario_chegada": "08h",
+    "horario_saida": "17h",
+    "autorizacao_familiares": [
+        "Maria",
+        "Carlos"
+    ]
+}

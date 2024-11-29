@@ -1,0 +1,23 @@
+{
+    "nome_comprador": "Maria Costa",
+    "email_comprador": "maria.costa@example.com",
+    "telefone_comprador": "913456789",
+    "endereco_entrega": "Rua das Flores, 45, Porto",
+    "itens_comprados": [
+        {
+            "nome_item": "Camiseta",
+            "quantidade": 2,
+            "preco_unitario": 15.00
+        },
+        {
+            "nome_item": "Par de sapatilhas",
+            "quantidade": 1,
+            "preco_unitario": 50.00
+        }
+    ],
+    "valor_total": 80.00,
+    "metodo_pagamento": null,
+    "status_pagamento": null,
+    "data_compra": "2024-10-10",
+    "data_entrega": "2024-10-15"
+}

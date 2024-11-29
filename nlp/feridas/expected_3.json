@@ -1,0 +1,32 @@
+{
+    "nome": "Fernanda Costa",
+    "idade": 32,
+    "endereco": "Avenida Brasil, 200",
+    "numero_identificacao": "987654321",
+    "contato_emergencia": null,
+    "condicoes_cronicas": null,
+    "medicamentos_atuais": null,
+    "alergias": [
+        "Penicilina"
+    ],
+    "historico_cirurgias": null,
+    "localizacao_ferida": "Joelho esquerdo",
+    "tamanho_ferida": null,
+    "profundidade_ferida": "Profunda",
+    "exudato_ferida": {
+        "presente": true,
+        "tipo": "Purulento"
+    },
+    "nivel_dor": 5,
+    "infeccao": null,
+    "duracao": 10,
+    "estagio": null,
+    "necrose": true,
+    "consciencia_paciente": null,
+    "peso": null,
+    "altura": null,
+    "imc": null,
+    "mobilidade": null,
+    "ulceras_pressao": null,
+    "avaliacao_circulacao": "Comprometida"
+}

@@ -1,0 +1,1 @@
+Carlos Almeida fez uma compra. Ele forneceu o e-mail do comprador como carlos.almeida@example.com e o seu telefone de comprador é 914567890. As compras serão entregues no endereço Rua do Sol, 78, Coimbra. Carlos comprou 5 latas de atum a 2.50€ cada e 3 pacotes de arroz a 3.00€ cada. O valor total da sua compra é 27.50€. Ele pagou com MBway e o status do pagamento é "Cancelado". 

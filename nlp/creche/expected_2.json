@@ -1,0 +1,18 @@
+{
+    "nome_crianca": "Sofia",
+    "idade_crianca": 3,
+    "data_nascimento": "2020-11-22",
+    "nome_responsavel": "Ana",
+    "contato_responsavel": "(21) 99876-5432",
+    "endereco_responsavel": "Rua dos Girassóis, 123",
+    "alergias": null,
+    "medicamentos_atuais": null,
+    "necessidades_especiais": true,
+    "tipo_necessidades_especiais": "Acompanhamento adicional na comunicação",
+    "horario_chegada": "07h30",
+    "horario_saida": "16h",
+    "autorizacao_familiares": [
+        "Tia Rita",
+        "Vovó Joana"
+    ]
+}

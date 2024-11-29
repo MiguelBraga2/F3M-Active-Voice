@@ -1,0 +1,33 @@
+{
+    "nome": "João Silva",
+    "idade": 65,
+    "endereco": null,
+    "numero_identificacao": null,
+    "contato_emergencia": null,
+    "condicoes_cronicas": ["diabetes"],
+    "medicamentos_atuais": ["insulina"],
+    "alergias": ["penicilina"],
+    "historico_cirurgias": null,
+    "localizacao_ferida": "tornozelo esquerdo",
+    "tamanho_ferida": {
+        "valor": 6,
+        "unidade": "cm"
+    },
+    "profundidade_ferida": "Superficial",
+    "exudato_ferida": {
+        "presente": true,
+        "tipo": "Seroso"
+    },
+    "nivel_dor": 5,
+    "infeccao": false,
+    "duracao": 10,
+    "estagio": null,
+    "necrose": false,
+    "consciencia_paciente": "Alerta",
+    "peso": 80,
+    "altura": 1.75,
+    "imc": null,
+    "mobilidade": "Parcialmente Dependente",
+    "ulceras_pressao": null,
+    "avaliacao_circulacao": null
+}

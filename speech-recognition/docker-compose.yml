@@ -1,0 +1,19 @@
+services:
+  speech-recognition:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NODE_ENV=development
+        - MODEL_NAME=${MODEL_NAME}
+    environment:
+      - NODE_ENV=development
+    ports:
+      - '5001:5000'
+    volumes:
+      - ./speech-recognition:/opt/speech-recognition/app:delegated
+    healthcheck:
+      disable: true
+
+volumes:
+  notused:

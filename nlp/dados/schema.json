@@ -1,0 +1,51 @@
+{
+    "nome_completo": {
+        "type": "string",
+        "description": "Nome completo da pessoa"
+    },
+    "data_nascimento": {
+        "type": "string",
+        "format": "date",
+        "description": "Data de nascimento"
+    },
+    "idade": {
+        "type": "number",
+        "description": "Idade da pessoa"
+    },
+    "endereco": {
+        "type": "string",
+        "description": "Endereço residencial"
+    },
+    "telefone": {
+        "type": "string",
+        "description": "Número de telefone de contato"
+    },
+    "email": {
+        "type": "string",
+        "description": "E-mail de contato"
+    },
+    "estado_civil": {
+        "type": "string",
+        "description": "Estado civil (Solteiro, Casado, Divorciado, etc.)"
+    },
+    "profissao": {
+        "type": "string",
+        "description": "Profissão atual"
+    },
+    "renda_mensal": {
+        "type": "number",
+        "description": "Renda mensal da pessoa"
+    },
+    "nacionalidade": {
+        "type": "string",
+        "description": "Nacionalidade da pessoa"
+    },
+    "genero": {
+        "type": "string",
+        "description": "Género da pessoa (Masculino, Feminino, Não-binário, etc.)"
+    },
+    "documento_identificacao": {
+        "type": "string",
+        "description": "Número do documento de identificação (CC, BI, passaporte, etc.)"
+    }
+}

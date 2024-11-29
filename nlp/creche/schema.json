@@ -1,0 +1,64 @@
+{
+    "nome_crianca": {
+        "type": "string",
+        "description": "Nome completo da criança"
+    },
+    "idade_crianca": {
+        "type": "number",
+        "description": "Idade da criança em anos"
+    },
+    "data_nascimento": {
+        "type": "string",
+        "format": "date",
+        "description": "Data de nascimento da criança"
+    },
+    "nome_responsavel": {
+        "type": "string",
+        "description": "Nome completo do responsável"
+    },
+    "contato_responsavel": {
+        "type": "string",
+        "description": "Número de telefone do responsável"
+    },
+    "endereco_responsavel": {
+        "type": "string",
+        "description": "Endereço do responsável"
+    },
+    "alergias": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "description": "Alergias da criança"
+    },
+    "medicamentos_atuais": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "description": "Medicamentos que a criança está tomando"
+    },
+    "necessidades_especiais": {
+        "type": "boolean",
+        "description": "Se a criança tem necessidades especiais"
+    },
+    "tipo_necessidades_especiais": {
+        "type": "string",
+        "description": "Descrição das necessidades especiais (se aplicável)"
+    },
+    "horario_chegada": {
+        "type": "string",
+        "description": "Horário de chegada da criança"
+    },
+    "horario_saida": {
+        "type": "string",
+        "description": "Horário de saída da criança"
+    },
+    "autorizacao_familiares": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "description": "Nomes das pessoas autorizadas a buscar a criança"
+    }
+}

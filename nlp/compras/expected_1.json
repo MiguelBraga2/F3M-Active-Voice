@@ -1,0 +1,23 @@
+{
+    "nome_comprador": "João Silva",
+    "email_comprador": "joao.silva@example.com",
+    "telefone_comprador": "912345678",
+    "endereco_entrega": "Avenida da Liberdade, 123, Lisboa",
+    "itens_comprados": [
+        {
+            "nome_item": "Garrafa de água",
+            "quantidade": 3,
+            "preco_unitario": 1.50
+        },
+        {
+            "nome_item": "Pacote de bolachas",
+            "quantidade": 5,
+            "preco_unitario": 2.00
+        }
+    ],
+    "valor_total": 15.50,
+    "metodo_pagamento": "Cartão de crédito",
+    "status_pagamento": "Pago",
+    "data_compra": "2024-10-12",
+    "data_entrega": "2024-10-14"
+}

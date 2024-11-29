@@ -1,0 +1,9 @@
+node_modules/
+models/*/res/*.json
+models/*/res/*.csv
+active-voice/android
+active-voice/ios
+*.vpp.lck
+speech-recognition/audios.zip
+active-voice/.env
+.DS_Store

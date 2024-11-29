@@ -1,0 +1,43 @@
+services:
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - 11434:11434
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ollama list || exit 1
+      interval: 10s
+      timeout: 30s
+      retries: 5
+      start_period: 10s
+    ########################  
+    # FOR GPU USE
+    #deploy:
+      #resources:
+        #reservations:
+          #devices:
+            #- driver: nvidia
+              #count: 1
+              #capabilities: [ gpu ]
+    ########################
+
+  ollama-models-pull:
+    image: curlimages/curl:latest
+    command: >-
+      http://ollama:11434/api/pull -d '{"name": "llama3.2:3b"}'
+    depends_on:
+      ollama:
+        condition: service_healthy
+
+  api:
+    build:
+      context: ./api
+    ports:
+      - "3000:3000"
+    depends_on:
+      - ollama-models-pull
+
+volumes:
+  ollama_data:

@@ -1,0 +1,36 @@
+{
+    "nome": "Carlos Almeida",
+    "idade": 56,
+    "endereco": "Rua dos Limoeiros, 45",
+    "numero_identificacao": "123456789",
+    "contato_emergencia": null,
+    "condicoes_cronicas": [
+        "Diabetes",
+        "Hipertensão"
+    ],
+    "medicamentos_atuais": [
+        "Metformina",
+        "Lisinopril"
+    ],
+    "alergias": null,
+    "historico_cirurgias": "Apendicite há mais de cinco anos",
+    "localizacao_ferida": "Perna direita",
+    "tamanho_ferida": {
+        "valor": 5,
+        "unidade": "cm"
+    },
+    "profundidade_ferida": "Superficial",
+    "exudato_ferida": null,
+    "nivel_dor": 7,
+    "infeccao": null,
+    "duracao": null,
+    "estagio": null,
+    "necrose": null,
+    "consciencia_paciente": null,
+    "peso": null,
+    "altura": null,
+    "imc": null,
+    "mobilidade": null,
+    "ulceras_pressao": null,
+    "avaliacao_circulacao": "Normal"
+}

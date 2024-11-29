@@ -1,0 +1,22 @@
+{
+    "nome_crianca": "Felipe",
+    "idade_crianca": 5,
+    "data_nascimento": "2018-04-05",
+    "nome_responsavel": "Mariana",
+    "contato_responsavel": "(31) 98765-4321",
+    "endereco_responsavel": "Rua das Oliveiras, 45",
+    "alergias": [
+        "Laticínios"
+    ],
+    "medicamentos_atuais": [
+        "Benadryl"
+    ],
+    "necessidades_especiais": false,
+    "tipo_necessidades_especiais": null,
+    "horario_chegada": "09h",
+    "horario_saida": "15h",
+    "autorizacao_familiares": [
+        "Seu João",
+        "Dona Ana"
+    ]
+}

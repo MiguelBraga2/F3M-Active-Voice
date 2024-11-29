@@ -1,0 +1,3 @@
+flask # type: ignore
+transformers # type: ignore
+accelerate # type: ignore
